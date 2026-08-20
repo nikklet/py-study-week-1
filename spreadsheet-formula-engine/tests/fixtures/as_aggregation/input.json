@@ -1,0 +1,1 @@
+{"cells":{"A1":8,"A2":"text","A3":true,"A4":null,"A5":20,"B1":"=SUM(A1:A5)","B2":"=SUM(A3)","B3":"=SUM(A1,A3,A5)","B4":"=COUNT(A1:A5)","B5":"=COUNTA(A1:A5)","B6":"=AVERAGE(A1:A5)","B7":"=MAX(A1:A5)"},"cols":30,"rows":50}

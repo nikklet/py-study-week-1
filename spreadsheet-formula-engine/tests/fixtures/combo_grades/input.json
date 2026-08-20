@@ -1,0 +1,1 @@
+{"cells":{"A1":85,"A2":72,"A3":90,"A4":55,"A5":68,"B1":"=IF(A1>=60,\"pass\",\"fail\")","B2":"=IF(A2>=60,\"pass\",\"fail\")","B3":"=IF(A3>=60,\"pass\",\"fail\")","B4":"=IF(A4>=60,\"pass\",\"fail\")","B5":"=IF(A5>=60,\"pass\",\"fail\")","C1":"=AVERAGE(A1:A5)","C2":"=MAX(A1:A5)-MIN(A1:A5)"},"cols":30,"rows":50}

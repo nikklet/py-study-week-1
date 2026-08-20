@@ -1,0 +1,1 @@
+{"cells":{"A1":"  hello  ","A2":"a   b   c","A3":"no extra","B1":"=TRIM(A1)","B2":"=TRIM(A2)","B3":"=TRIM(A3)","B4":"=TRIM(\"   x   \")"},"cols":30,"rows":50}

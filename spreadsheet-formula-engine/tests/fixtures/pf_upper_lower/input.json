@@ -1,0 +1,1 @@
+{"cells":{"A1":"Hello World","A2":123,"B1":"=UPPER(A1)","B2":"=UPPER(\"abc\")","B3":"=UPPER(A2)","B4":"=LOWER(A1)","B5":"=LOWER(\"ABC\")"},"cols":30,"rows":50}

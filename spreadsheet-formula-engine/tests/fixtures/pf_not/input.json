@@ -1,0 +1,1 @@
+{"cells":{"A1":true,"A2":false,"A3":0,"A4":5,"B1":"=NOT(A1)","B2":"=NOT(A2)","B3":"=NOT(A3)","B4":"=NOT(A4)","B5":"=NOT(A1)=A2"},"cols":30,"rows":50}

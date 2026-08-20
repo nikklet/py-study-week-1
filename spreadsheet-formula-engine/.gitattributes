@@ -1,0 +1,10 @@
+# Force LF line endings on shell scripts so they run inside the Linux image
+# even when the bundle is created/edited on Windows. Without this, CRLF endings
+# make the `#!/usr/bin/env bash` shebang fail with "bad interpreter".
+*.sh text eol=lf
+
+# Keep JSON and Python normalized to LF as well.
+*.py text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.md text eol=lf

@@ -1,0 +1,1 @@
+{"cells":{"A1":"john","A2":"doe","B1":"=UPPER(LEFT(A1,1))&MID(A1,2,100)","B2":"=UPPER(LEFT(A2,1))&MID(A2,2,100)","B3":"=B1&\" \"&B2","B4":"=LEN(B3)","B5":"=UPPER(B3)"},"cols":30,"rows":50}

@@ -1,0 +1,1 @@
+{"cells":{"A1":"spreadsheet","B1":"=LEFT(A1,3)","B2":"=LEFT(A1,1)","B3":"=LEFT(A1,100)","B4":"=LEFT(A1,0)","B5":"=LEFT(12345,2)"},"cols":30,"rows":50}

@@ -1,0 +1,1 @@
+{"cells":{"A1":"hello","A2":"","A3":12345,"A4":true,"B1":"=LEN(A1)","B2":"=LEN(A2)","B3":"=LEN(A3)","B4":"=LEN(A4)","B5":"=LEN(\"abc\")"},"cols":30,"rows":50}

@@ -1,0 +1,1 @@
+{"cells":{"A1":"  John  ","A2":"SMITH","B1":"=TRIM(A1)","B2":"=LOWER(A2)","B3":"=B1&\" \"&B2","B4":"=UPPER(LEFT(B1,1))&MID(B1,2,100)","B5":"=LEN(B3)","B6":"=CONCAT(UPPER(B1),\"-\",A2)"},"cols":30,"rows":50}

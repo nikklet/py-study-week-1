@@ -1,0 +1,18 @@
+{
+  "cells": {
+    "A1": "Spreadsheet",
+    "B1": "=LEFT(A1, 6)",
+    "B10": "=ROUND(3.14159, 2)",
+    "B11": "=RIGHT(A1, 0)",
+    "B2": "=RIGHT(A1, 5)",
+    "B3": "=MID(A1, 7, 5)",
+    "B4": "=LEN(A1)",
+    "B5": "=UPPER(A1)",
+    "B6": "=LOWER(A1)",
+    "B7": "=TRIM(\"  a   b  \")",
+    "B8": "=ROUND(2.5, 0)",
+    "B9": "=ROUND(-2.5, 0)"
+  },
+  "cols": 30,
+  "rows": 50
+}

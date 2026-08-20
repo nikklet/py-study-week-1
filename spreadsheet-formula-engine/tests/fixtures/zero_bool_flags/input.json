@@ -1,0 +1,1 @@
+{"cells":{"A1":25,"A2":60,"A3":18,"B1":"=AND(A1>=18,A1<=65)","B2":"=OR(A2>50,A3>50)","B3":"=IF(A3>=18,\"adult\",\"minor\")","B4":"=NOT(A1>100)","B5":"=IF(AND(A1>0,A2>0,A3>0),\"all positive\",\"has zero\")"},"cols":30,"rows":50}

@@ -1,0 +1,1 @@
+{"cells":{"A1":10,"A2":0,"A3":5,"B1":"=IFERROR(A1/A2,-1)","B2":"=IFERROR(A1/A3,-1)","B3":"=IFERROR(SQRT(-1),0)","B4":"=IFERROR(A1,99)","B5":"=IFERROR(FOO(),\"bad\")"},"cols":30,"rows":50}

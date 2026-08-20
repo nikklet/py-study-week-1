@@ -1,0 +1,1 @@
+{"cells":{"A1":5,"A2":10,"A3":15,"B1":"=SUM(A1:A3)*IF(A1>0,2,1)","B2":"=MAX(A1,MIN(A2,A3))","B3":"=ROUND(AVERAGE(A1:A3),1)","B4":"=ABS(A1-A3)+ABS(A3-A1)","B5":"=IF(AND(A1>0,A2>0),SUM(A1:A3),0)"},"cols":30,"rows":50}

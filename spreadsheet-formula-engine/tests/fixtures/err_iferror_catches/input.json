@@ -1,0 +1,1 @@
+{"cells":{"A1":0,"A2":-1,"B1":"=IFERROR(1/A1,\"caught\")","B2":"=IFERROR(SQRT(A2),\"caught\")","B3":"=IFERROR(FOO(),\"caught\")","B4":"=IFERROR(A99,\"caught\")","B5":"=IFERROR(1/A1,2/A1)"},"cols":30,"rows":50}

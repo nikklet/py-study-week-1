@@ -1,0 +1,1 @@
+{"cells":{"A1":"Calculation","B1":"=LEFT(A1,4)","B10":"=ROUND(2.71828,2)","B11":"=RIGHT(A1,0)","B2":"=RIGHT(A1,4)","B3":"=MID(A1,5,6)","B4":"=LEN(A1)","B5":"=UPPER(A1)","B6":"=LOWER(A1)","B7":"=TRIM(\"  x  y  \")","B8":"=ROUND(3.5,0)","B9":"=ROUND(-3.5,0)"},"cols":30,"rows":50}

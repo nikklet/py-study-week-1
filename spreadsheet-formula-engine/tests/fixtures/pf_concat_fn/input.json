@@ -1,0 +1,1 @@
+{"cells":{"A1":"a","A2":"b","A3":"c","A4":1,"A5":2,"B1":"=CONCAT(A1,A2,A3)","B2":"=CONCAT(A1,A4)","B3":"=CONCAT(A4,A5)","B4":"=CONCAT(\"x\",\"y\")","B5":"=CONCAT(A1:A3)"},"cols":30,"rows":50}

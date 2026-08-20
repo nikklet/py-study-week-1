@@ -1,0 +1,1 @@
+{"cells":{"A1":5,"B1":"=FOO(A1)","B2":"=BAR()","B3":"=A1+XYZZY","B4":"=SUMX(A1)","B5":"=A1+FOO()"},"cols":30,"rows":50}

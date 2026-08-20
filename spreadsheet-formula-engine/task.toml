@@ -1,0 +1,39 @@
+# task.toml — Odyssey task descriptor for the Spreadsheet Formula Engine.
+#
+# NOTE (author): the section layout and field names below follow the Odyssey /
+# Harbor task-format notes we have on hand. If the platform's current schema
+# uses slightly different key spellings, this is a one-line-per-field rename —
+# the values are all correct. Confirm against a live example before submitting.
+
+[metadata]
+name = "spreadsheet-formula-engine"
+title = "Spreadsheet Formula Engine"
+collection_family = "library_clone"
+task_family = "feature_development"
+verifier_family = "programmatic"
+tags = ["python", "parsing", "interpreter", "spreadsheet", "evaluation"]
+difficulty = "hard"
+
+[environment]
+dockerfile = "environment/Dockerfile"
+network = "none"
+cpu_millis = 1000
+memory_mb = 1024
+storage_mb = 1024
+gpu = 0
+
+[agent]
+instruction = "instruction.md"
+agent_timeout_sec = 7200
+
+[verifier]
+# The runner prints exactly one line of the form:
+#   RESULT score=<fraction> passed=<n> total=<N> status=<PASS|FAIL>
+entrypoint = "tests/test.sh"
+verifier_timeout_sec = 600
+result_regex = 'RESULT score=(?P<score>[0-9.]+) passed=[0-9]+ total=[0-9]+ status=(?P<status>PASS|FAIL)'
+pass_threshold = 0.90
+
+[solution]
+# Oracle: installs the reference engine as /app/sheet.py; must score 1.0.
+entrypoint = "solution/solve.sh"
