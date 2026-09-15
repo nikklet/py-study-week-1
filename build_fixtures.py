@@ -16,7 +16,7 @@ import shutil
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BUNDLE = os.path.join(HERE, "spreadsheet-formula-engine")
+BUNDLE = os.path.join(HERE, "Terminal bench", "spreadsheet-formula-engine")
 sys.path.insert(0, os.path.join(BUNDLE, "solution"))
 
 from reference_engine import compute  # noqa: E402
